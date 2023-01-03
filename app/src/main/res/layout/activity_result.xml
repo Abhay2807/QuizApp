@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg1"
+    tools:context=".Result">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:text="Result"
+        android:textColor="#ff0054"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="28dp"
+        android:src="@drawable/trophy_bg"
+        android:backgroundTint="@color/black"
+        android:padding="45dp"
+        android:elevation="20dp">
+
+    </ImageView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:text="CONGRATULATIONS!!!"
+        android:textColor="#72ddf7"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Username"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="#ff5400"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Score is 17 out of 20 "
+
+        android:layout_marginBottom="15dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#ffff3f"
+        >
+
+    </TextView>
+
+    <Button
+        android:id="@+id/returnApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:padding="10dp"
+        android:elevation="12dp"
+        android:textSize="28sp"
+        android:gravity="center_horizontal"
+        android:backgroundTint="#00798c"
+        android:textColor="#27fb6b"
+        android:text="Return"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/finishApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:elevation="12dp"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:backgroundTint="#e63946"
+        android:textColor="#27fb6b"
+        android:text="FINISH"
+        >
+
+    </Button>
+
+
+</LinearLayout>

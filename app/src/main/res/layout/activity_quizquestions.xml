@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0aaff"
+    android:fillViewport="true"
+    tools:context=".QUIZQuestions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_que"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textColor="#264653"
+            android:textStyle="bold"
+            tools:text="What country does this flag belong to?">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/iv_flag"
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Flag of the Country"
+            tools:src="@drawable/ic_albania">
+
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="0dp"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="20"
+                android:minHeight="50dp"
+                android:progress="1"
+                android:indeterminate="false"
+                >
+
+
+
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/tv_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:padding="12dp"
+                tools:text="1/20"
+                android:textColor="#780000"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+<TextView
+    android:id="@+id/optionOne"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/default_bg"
+    android:gravity="center"
+    android:padding="16dp"
+    android:textColor="#48cae4"
+
+    android:textSize="24sp"
+    tools:text="Abhay">
+
+
+
+</TextView>
+
+        <TextView
+        android:id="@+id/optionTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/default_bg"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#48cae4"
+
+        android:textSize="24sp"
+        tools:text="Abhay">
+
+
+
+    </TextView>
+
+    <TextView
+    android:id="@+id/optionThree"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/default_bg"
+    android:gravity="center"
+    android:padding="16dp"
+    android:textColor="#48cae4"
+
+    android:textSize="24sp"
+    tools:text="Abhay">
+
+
+
+</TextView>
+
+    <TextView
+    android:id="@+id/optionFour"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/default_bg"
+    android:gravity="center"
+    android:padding="16dp"
+    android:textColor="#48cae4"
+
+    android:textSize="24sp"
+    tools:text="Abhay">
+
+
+
+    </TextView>
+
+        <Button
+            android:id="@+id/btnstart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="SUBMIT"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:background="#390099"
+            android:textColor="#10002b"
+            android:elevation="10dp">
+
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>
